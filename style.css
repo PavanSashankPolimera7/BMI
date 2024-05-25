@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+body{
+    font-family:    sans-serif;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to left,rgb(129, 247, 127),rgb(224, 224, 40),rgb(215, 230, 88),rgb(105, 252, 242));
+    color:rgb(6, 6, 6);
+    /* border: 100px; */
+}
+
+.container{
+    margin-top: 150px;
+    max-width: 300px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 10px rgb(65, 40, 67);
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(255, 253, 254);
+}
+p{
+    margin-top: 30px;
+}
+
+input{
+   
+    margin-bottom: 10px;
+     border:none; 
+    border-bottom: 2px solid rgb(189, 187, 91) ;
+    outline:none;
+    font-size: larger;
+    text-align: center;
+    /* font-weight: 100;
+     */
+     
+}
+.two{
+    margin-top: 30px;
+}
+
+button{
+margin-top: 20px;
+margin-bottom: 20px;
+width:100%;
+height:35px;  
+border-radius: 16px;
+border:none;
+outline: none;
+font-size: 22px;
+color:rgb(0, 0, 0);
+background-color: rgb(165, 137, 162);
+cursor: pointer;
+
+}
+
+#result{
+margin-top:20px;
+}
+
+.content{
+    position: relative;
+}
+
+.content h1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 12ex;
+}
+
+.content h1:nth-child(1){
+    color:transparent;
+    -webkit-text-stroke: 1px #8a62f7;
+}
+
+.content h1:nth-child(2){
+    color: #42b5cf;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+    0%, 100%{
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+.content{
+    ;
+}
